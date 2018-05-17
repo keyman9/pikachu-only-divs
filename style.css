@@ -1,0 +1,64 @@
+.face {
+  background-color: #ffdd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.black-circle {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  background-color: #3d3d3d;
+}
+
+.eye-reflection {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  background-color: #fffff0;
+  margin: 1rem;
+}
+
+.cheeks {
+  border-radius: 60%;
+  height: 4rem;
+  width: 5rem;
+  background-color: #df0000;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#nose {
+  width: 0; 
+  height: 0; 
+  border-left: 2rem solid transparent; 
+  border-right: 2rem solid transparent; 
+  border-bottom: 2rem solid #3d3d3d;
+  border-radius: 45%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 8rem;
+}
+
+#mouth {
+  background-color: #9f003f;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  margin-top: 4%;
+}
+
+#mouth-outline {
+  background-color: #3d3d3d;
+  border-radius: 50%;
+  height: 6.5rem;
+  width: 6.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
